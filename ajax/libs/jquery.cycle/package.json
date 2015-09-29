@@ -19,5 +19,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/malsup/cycle"
-  }
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/malsup/cycle.git",
+    "basePath": "",
+    "files": [
+      "jquery.cycle*.js"
+    ]
+  },
+  "requiredFiles": [
+    "jquery.cycle.lite.min.js"
+  ]
 }
